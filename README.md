@@ -69,7 +69,7 @@ By the final review, this README should clearly show:
 
 ## 1.3 Project Title
 
-`"Project Project"`
+`"Air Drawing Through Hand Gestures"`
 
 `(because Project-or)`
 
@@ -77,7 +77,7 @@ By the final review, this README should clearly show:
 
 ## 1.4 One-Line Pitch
 
-`A projected, fully customizable time portal where engineering education is done through PUBG battlefield in the comfort of our home`
+`Turn mid-air gestures into living digital art—where your hand becomes the brush and space itself the canvas.`
 
 ## 1.5 Expanded Project Idea
 
@@ -88,7 +88,9 @@ In 1–2 paragraphs, explain:
 - what technologies are involved.
 
 **Response:**  
-`A projected and fully customizable time portal can transform engineering education into an immersive PUBG-style battlefield experience from the comfort of home. In this environment, students can learn engineering concepts by entering a virtual battlefield where challenges, obstacles, and missions are designed around real technical problems. Instead of passively studying theory, learners actively apply concepts such as electronics, coding, sensors, robotics, mechanics, and system design to complete missions, solve problems, and progress through different levels. This approach makes engineering education more interactive, engaging, and practical by combining gaming, simulation, and hands-on problem-solving in a familiar and exciting format.`
+`An air-drawing system built on a Raspberry Pi 4 and a webcam that enables users to create digital artwork through mid-air hand gestures. The system captures and tracks hand movements in real time, translating them into precise strokes on a virtual canvas, effectively transforming the user’s hand into a contactless drawing tool. This creates an intuitive, immersive, and visually engaging interaction model that reimagines traditional input methods.
+
+The project leverages computer vision techniques using OpenCV and hand-tracking frameworks such as MediaPipe to detect and interpret finger positions and motion. These inputs are processed on-device to render dynamic drawings, with support for gesture-based controls like color selection and brush modulation, demonstrating a modern approach to human–computer interaction.`
 
 ---
 
