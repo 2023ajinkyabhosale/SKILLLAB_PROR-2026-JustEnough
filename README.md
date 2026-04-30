@@ -119,6 +119,11 @@ Another key aspect is that it runs in real time on a Raspberry Pi 4, which adds 
 Describe exactly how a user will use the project.Make it a story
 **Response:**  
 
+Riya walks up to the setup — a webcam, a Raspberry Pi, and a canvas projected on the wall. No stylus, no touchscreen, nothing to pick up. She raises her index finger and a dot appears on the canvas. She moves her hand slowly to the left — a line follows. She keeps going, curving upward, looping back. She's drawing a bird. In the air. With her finger.
+ 
+She uses her other hand — the color shifts. She draws the sun in the corner. She makes a fist and spreads her palm open and holds it flat — the canvas clears. She grins and starts over.
+ 
+Five minutes in, she hasn't touched a single surface. The system just watched her hand and did the rest.
                                                   |
 
 
@@ -129,6 +134,7 @@ Describe exactly how a user will use the project.Make it a story
 
 ## 4.1 Definition of “Usable”
 
+The system reliably detects a user's hand, tracks the index fingertip, and renders continuous strokes on a visible canvas in real time — with no perceptible lag above ~200ms. A first-time user should be able to start drawing within 30 seconds of standing in front of it, with no instructions beyond "point your finger."
 
 
 ## 4.2 Minimum Usable Version
@@ -137,11 +143,15 @@ What is the smallest version of this project that still delivers the core experi
 
 **Response:**  
 
+A webcam feed processed by MediaPipe on the Pi that maps the index fingertip position to a canvas and draws a continuous stroke as the finger moves. One gesture to clear the canvas (open palm, held for 1 second). No color switching, no brush control — just draw and clear. If someone can make a recognizable shape in the air, its enough to bring a smile on their face.
 
 ## 4.3 Stretch Features
 
 What features are nice to have but not essential?
 
+- Gesture-based color switching (pinch cycles through a palette)
+- Save canvas as a PNG with a two-hand gesture
+- Undo last stroke by drawing a quick circle in the air
 
 ---
 
@@ -155,11 +165,11 @@ Check all that apply.
 
 - [ ] Mechanical
 
-- [x] Sensor-based
+- [ ] Sensor-based
 
-- [x] App-connected
+- [ ] App-connected
 
-- [x] Motorized
+- [b] Motorized
 
 - [ ] Sound-based
 
@@ -167,13 +177,13 @@ Check all that apply.
 
 - [x] Screen/UI-based
 
-- [x] Fabricated structure
+- [ ] Fabricated structure
 
 - [x] Game logic based
 
-- [x] Installation
+- [ ] Installation
 
-- [ ] Other:
+- [x] Software/AI based
 
 ## 5.2 High-Level System Description
 
@@ -188,6 +198,16 @@ Include:
 - app interaction if any.
 
 **Response:**  
+
+**Input:** A USB webcam captures a live video feed of the user's hand.
+ 
+**Processing:** Each frame is passed through MediaPipe's hand tracking model running locally on the Raspberry Pi 4. The model identifies 21 hand landmarks per frame. Landmark 8 (index fingertip) is extracted and mapped to canvas coordinates. A gesture classifier runs in parallel — checking distances between specific landmarks to detect a pinch (color switch) or flat open palm (clear canvas).
+ 
+**Output:** OpenCV renders strokes onto a persistent canvas buffer in real time, which is displayed on a connected monitor or projected onto a flat surface. The canvas updates every frame.
+ 
+**Physical structure:** The webcam is mounted on a small stand or clipped above the drawing zone. The Raspberry Pi 4 sits beside it, connected to the display via HDMI. The whole setup is compact enough to sit on a table.
+ 
+**App interaction:** No external app. Everything — tracking, gesture classification, and rendering — runs in a single Python script on the Pi.
 
 ## 5.3 Input / Output Map
 
