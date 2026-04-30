@@ -88,9 +88,9 @@ In 1–2 paragraphs, explain:
 - what technologies are involved.
 
 **Response:**  
-`An air-drawing system built on a Raspberry Pi 4 and a webcam that enables users to create digital artwork through mid-air hand gestures. The system captures and tracks hand movements in real time, translating them into precise strokes on a virtual canvas, effectively transforming the user’s hand into a contactless drawing tool. This creates an intuitive, immersive, and visually engaging interaction model that reimagines traditional input methods.
+An air-drawing system built on a Raspberry Pi 4 and a webcam that enables users to create digital artwork through mid-air hand gestures. The system captures and tracks hand movements in real time, translating them into precise strokes on a virtual canvas, effectively transforming the user’s hand into a contactless drawing tool. This creates an intuitive, immersive, and visually engaging interaction model that reimagines traditional input methods.
 
-The project leverages computer vision techniques using OpenCV and hand-tracking frameworks such as MediaPipe to detect and interpret finger positions and motion. These inputs are processed on-device to render dynamic drawings, with support for gesture-based controls like color selection and brush modulation, demonstrating a modern approach to human–computer interaction.`
+The project leverages computer vision techniques using OpenCV and hand-tracking frameworks such as MediaPipe to detect and interpret finger positions and motion. These inputs are processed on-device to render dynamic drawings, with support for gesture-based controls like color selection and brush modulation, demonstrating a modern approach to human–computer interaction. 
 
 ---
 
@@ -113,8 +113,8 @@ List what inspired the project.
 What makes your project original?
 
 **Response:**  
-`What makes this project stand out is that it goes beyond basic gesture control and focuses on creativity. Instead of just using gestures to trigger actions, it lets users freely draw in the air, making the interaction feel more natural and expressive. Features like gesture-based color and brush control also remove the need for any physical input.
-Another key aspect is that it runs in real time on a Raspberry Pi 4, which adds a practical challenge and makes the system more efficient. Overall, it’s a simple idea but implemented in a way that feels interactive, modern, and actually useful, using tools like OpenCV and MediaPipe.`
+What makes this project stand out is that it goes beyond basic gesture control and focuses on creativity. Instead of just using gestures to trigger actions, it lets users freely draw in the air, making the interaction feel more natural and expressive. Features like gesture-based color and brush control also remove the need for any physical input.
+Another key aspect is that it runs in real time on a Raspberry Pi 4, which adds a practical challenge and makes the system more efficient. Overall, it’s a simple idea but implemented in a way that feels interactive, modern, and actually useful, using tools like OpenCV and MediaPipe.
 
 ---
 
