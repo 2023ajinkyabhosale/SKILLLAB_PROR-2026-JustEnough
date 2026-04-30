@@ -92,7 +92,7 @@ The project leverages computer vision techniques using OpenCV and hand-tracking 
 
 ## 2.1 References
 
-Inspiration: We happened to observe the whiteboard and thought what if we could draw on it through gestures.
+Origination of Idea: We happened to observe the whiteboard and thought what if we could draw on it through gestures.
 
 List what inspired the project.
 
