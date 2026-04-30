@@ -98,6 +98,8 @@ The project leverages computer vision techniques using OpenCV and hand-tracking 
 
 ## 2.1 References
 
+We happened to observe the whiteboard and thought what if we could draw on it through gestures.
+
 List what inspired the project.
 
 | Source Type | Title / Link                                                        | What Inspired You                                                                         |
@@ -111,7 +113,8 @@ List what inspired the project.
 What makes your project original?
 
 **Response:**  
-
+`What makes this project stand out is that it goes beyond basic gesture control and focuses on creativity. Instead of just using gestures to trigger actions, it lets users freely draw in the air, making the interaction feel more natural and expressive. Features like gesture-based color and brush control also remove the need for any physical input.
+Another key aspect is that it runs in real time on a Raspberry Pi 4, which adds a practical challenge and makes the system more efficient. Overall, it’s a simple idea but implemented in a way that feels interactive, modern, and actually useful, using tools like OpenCV and MediaPipe.`
 
 ---
 
