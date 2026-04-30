@@ -73,7 +73,7 @@ By the final review, this README should clearly show:
 
 `(because Project-or)`
 
-<img width="1600" height="1131" alt="image" src="https://github.com/2023ajinkyabhosale/SKILLLAB_PROR-2026-JustEnough/blob/main/images/projectnameimage.png" />
+<img width="1600" height="1131" alt="image" src="https://github.com/user-attachments/assets/c64bfbd4-b3b7-43d9-83ad-c203a5aa11bc" />
 
 ## 1.4 One-Line Pitch
 
