@@ -63,9 +63,9 @@ By the final review, this README should clearly show:
 
 | Name                  | Primary Role                    | Secondary Role   | Strengths Brought to the Project |
 | --------------        | ------------------------------- | --------------   | -------------------------------- |
-| `Ajinkya Bhosale` | `[Electronics / Coding / App ]` | `Documentation`  | `Documentation, Gift of Gab `|
-| `Paras Dharmadhikari` | `[Electronics / Fabrication]`   | `[Coding]`       | `Material Handling, Hardware`    |
-| `Abhavya Verma`        | `[Electronics / Fabrication]`   | `[Coding]`       | `Material Handling, Hardware`    |
+| `Ajinkya Bhosale` | `Research  ` | `Coding and debugging`  | `Documentation, Hardware`|
+| `Paras Dharmadhikari` | `Electronics / Coding `   | `ML model training`       | `Python, Linux`  |
+| `Abhavya Verma`        | `ML model training`   | `Coding and debugging`       | `ML, Documentation`    |
 
 ## 1.3 Project Title
 
