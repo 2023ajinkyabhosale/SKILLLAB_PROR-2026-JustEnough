@@ -81,12 +81,6 @@ By the final review, this README should clearly show:
 
 ## 1.5 Expanded Project Idea
 
-In 1–2 paragraphs, explain:
-
-- what your project is,
-- what kind of experience it creates,
-- what technologies are involved.
-
 **Response:**  
 An air-drawing system built on a Raspberry Pi 4 and a webcam that enables users to create digital artwork through mid-air hand gestures. The system captures and tracks hand movements in real time, translating them into precise strokes on a virtual canvas, effectively transforming the user’s hand into a contactless drawing tool. This creates an intuitive, immersive, and visually engaging interaction model that reimagines traditional input methods.
 
@@ -98,7 +92,7 @@ The project leverages computer vision techniques using OpenCV and hand-tracking 
 
 ## 2.1 References
 
-We happened to observe the whiteboard and thought what if we could draw on it through gestures.
+Inspiration: We happened to observe the whiteboard and thought what if we could draw on it through gestures.
 
 List what inspired the project.
 
