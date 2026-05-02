@@ -302,8 +302,6 @@ No custom circuit exists for this project. The connection topology is:
                   [Logitech USB Webcam]             [HDMI Monitor]
 ```
 
-**Insert photo / diagram of physical connection below:**
-`[Upload image and link here]`
 
 ## 7.4 Power Plan
 
