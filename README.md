@@ -132,7 +132,7 @@ Five minutes in, she hasn't touched a single surface. The system just watched he
 
 ## 4.1 Definition of “Usable”
 
-The system reliably detects a user's hand, tracks the index fingertip, and renders continuous strokes on a visible canvas in real time — with no perceptible lag above ~200ms. A first-time user should be able to start drawing within 30 seconds of standing in front of it, with no instructions beyond "point your finger."
+The system reliably detects a user's hand, tracks the index fingertip, and renders continuous strokes on a visible canvas in real time — with no perceptible lag above ~800ms. A first-time user should be able to start drawing within 30 seconds of standing in front of it, with no instructions beyond "point your finger."
 
 
 ## 4.2 Minimum Usable Version
