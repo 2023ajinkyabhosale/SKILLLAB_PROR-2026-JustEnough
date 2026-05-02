@@ -92,13 +92,11 @@ The project leverages computer vision techniques using OpenCV and hand-tracking 
 
 ## 2.1 References
 
-Origination of Idea: We happened to observe the whiteboard and thought what if we could draw on it through gestures.
-
 List what inspired the project.
 
 | Source Type | Title / Link                                                        | What Inspired You                                                                         |
 | ----------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| `[Video]`   | `https://www.instagram.com/reel/DW4CT7WCDry/?igsh=cXg3dzAxYmdncDBo` | `How projection mapping can be used to create interactive digital + physical experiences` |
+| `[Video]`   | `https://www.youtube.com/shorts/8hZK73xspEk` | `We happened to observe the whiteboard and thought what if we could draw on it through gestures.` |
 |             |                                                                     |                                                                                           |
 |             |                                                                     |                                                                                           |
 
