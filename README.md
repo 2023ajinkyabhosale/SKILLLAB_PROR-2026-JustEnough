@@ -395,8 +395,7 @@ LOOP (each frame)
 END → cam.release() → cv2.destroyAllWindows()
 ```
 
-**Insert flowchart image below:**
-`[Upload image and link here]`
+<img width="1600" height="1131" alt="image" src="https://github.com/2023ajinkyabhosale/SKILLLAB_PROR-2026-JustEnough/blob/main/images/flowchart.jpeg" />
 
 ---
 
@@ -620,16 +619,10 @@ The most significant revision was rewriting the hand-tracking module from the `m
 
 # 16. Build Photos
 
-Add photos throughout the project.
-
-Suggested images:
-- Pi + webcam physical setup on table
-- Terminal showing script running with FPS output
-- Canvas with a drawing on screen (photograph of the monitor)
-- Fist gesture triggering erase mode (screenshot with ERASE badge visible)
-- Secondary hand showing fingers with color swatch highlighted
-
-`[Upload photos and link here]`
+<img width="1600" height="1131" alt="image" src="https://github.com/2023ajinkyabhosale/SKILLLAB_PROR-2026-JustEnough/blob/main/images/test%20drawing%20one.jpeg" />
+<img width="1600" height="1131" alt="image" src="https://github.com/2023ajinkyabhosale/SKILLLAB_PROR-2026-JustEnough/blob/main/images/test%20drawing%20two.jpeg" />
+<img width="1600" height="1131" alt="image" src="https://github.com/2023ajinkyabhosale/SKILLLAB_PROR-2026-JustEnough/blob/main/images/paras_testing_code.jpeg" />
+<img width="1600" height="1131" alt="image" src="https://github.com/2023ajinkyabhosale/SKILLLAB_PROR-2026-JustEnough/blob/main/images/WhatsApp%20Image%202026-04-30%20at%2015.33.17.jpeg" />
 
 ---
 
