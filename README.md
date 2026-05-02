@@ -248,8 +248,8 @@ Your labeled diagram should show the following elements with callouts:
 - **Secondary hand** — the other hand; used for color selection
 - **Toolbar region** — top 44px of the display showing color swatches and mode badge
 
-**Insert labeled diagram below:**
-`[Upload image and link here]`
+<img width="1600" height="1131" alt="image" src="https://github.com/2023ajinkyabhosale/SKILLLAB_PROR-2026-JustEnough/blob/main/images/rough_planning.jpeg" />
+
 
 ## 6.3 Approximate Dimensions
 
@@ -462,14 +462,14 @@ The project is very low-cost because all compute and power hardware was already 
 | T1 | Finalise concept and confirm scope | All | 2 | Day 1 | None | Done |
 | T2 | Set up Raspberry Pi OS, install Python dependencies | Paras | 2 | Day 1 | T1 | Done |
 | T3 | Verify webcam feed at 320×240 on Pi, confirm MediaPipe model download | Paras | 1 | Day 1 | T2 | Done |
-| T4 | Implement threaded camera and basic landmark detection loop | Paras | 3 | Day 2 | T3 | Done |
-| T5 | Implement `fingers_extended()` with thumb-direction fix for both hands | Paras | 2 | Day 2 | T4 | Done |
-| T6 | Implement draw stroke, erase stroke, canvas compositing | Abhavya | 3 | Day 2 | T5 | Done |
-| T7 | Implement secondary-hand color selection (1–5 fingers) with flash feedback | Abhavya | 2 | Day 3 | T6 | Done |
+| T4 | Implement threaded camera and basic landmark detection loop | Paras | 3 | Day 1 | T3 | Done |
+| T5 | Implement `fingers_extended()` with thumb-direction fix for both hands | Paras | 2 | Day 1 | T4 | Done |
+| T6 | Implement draw stroke, erase stroke, canvas compositing | Abhavya | 3 | Day 1 | T5 | Done |
+| T7 | Implement secondary-hand color selection (1–5 fingers) with flash feedback | Abhavya | 2 | Day 1 | T6 | Done |
 | T8 | Implement toolbar renderer, mode badge, FPS counter, color swatches | Paras | 2 | Day 3 | T6 | Done |
 | T9 | Save-to-PNG and clear canvas key bindings | Abhavya | 1 | Day 3 | T8 | Done |
-| T10 | End-to-end testing on Pi: FPS, gesture accuracy, lighting conditions | All | 3 | Day 4 | T7, T9 | Done |
-| T11 | Complete README documentation (sections 5–19) | Ajinkya | 3 | Day 4 | T10 | Done |
+| T10 | End-to-end testing on Pi: FPS, gesture accuracy, lighting conditions | All | 3 | Day 3 | T7, T9 | Done |
+| T11 | Complete README documentation (sections 5–19) | Ajinkya | 3 | Day 3 | T10 | Done |
 
 ## 10.3 Responsibility Split
 
